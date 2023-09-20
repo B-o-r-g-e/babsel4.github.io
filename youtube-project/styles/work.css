@@ -1,0 +1,463 @@
+.pics2 {
+    width: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.pics3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 600px;
+    object-fit: cover;
+}
+
+.search {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.google {
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    padding: 20px 400px 20px 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.linkedin-email {
+    font-family: Cantarell, serif;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+.linkedin-box {
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: solid;
+}
+.policy {
+    font-family: Cantarell, serif;
+    color: rgb(96, 96, 96);
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.click {
+    font-family: Cantarell, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #3d3dc0;
+    padding: 20px 130px;
+    border: none;
+    border-radius: 50px;
+}
+
+.profile-picture {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text {
+    position: relative;
+    left: 90px;
+    bottom: 80px;
+    font-family: Arial, serif;
+    font-size: 25px;
+    color: rgb(96, 96, 96);
+}
+
+.tweet {
+    font-family: "Cantarell Extra Bold", serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    background-color: #6c6ce1;
+    border-radius: 200px;
+    position: relative;
+    left: 500px;
+    bottom: 140px;
+    display: inline-block;
+}
+
+.box {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.circle {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.service {
+    display: block;
+    border-style: solid;
+    border-color: black;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.services {
+    font-family: Cantarell, serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.yes {
+    font-size:15px;
+    padding: 4px 9px;
+}
+
+.no {
+    font-size: 15px;
+    padding: 4px 9px;
+}
+
+.youtube {
+    display: inline-block;
+    background-color: #252424;
+    color: white;
+    font-family: Cantarell, serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.header {
+    font-family: "Cantarell Extra Bold", serif;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.follow {
+    width: 350px;
+    color: rgb(157, 156, 156);
+    margin-top: 10px;
+}
+
+.logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 200px;
+}
+
+.log {
+    text-align: center;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.searchs {
+    text-align: center;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.search-bar {
+    width: 600px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+    font-family: Cantarell, serif;
+    font-size: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+
+.google-search {
+    text-align: center;
+    display: block;
+}
+
+.content {
+    font-family: Cantarell, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+    .content:hover {
+        color: #424040;
+    }
+
+
+.feelings {
+    font-family: Cantarell, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.feelings:hover {
+    color: #424040;
+}
+
+.dp {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: center;
+    margin-right: 10px;
+}
+
+.dp-pics {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}
+
+.body {
+    display: inline-block;
+}
+
+.words {
+    font-family: Cantarell, serif;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 200px;
+}
+
+.first {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.second {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 6px;
+    color: rgb(96, 96, 96);
+}
+
+.third {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(96, 96, 96);
+}
+
+.button {
+    display: inline-block;
+    height: 20px;
+}
+
+.follows {
+    padding: 12px 13px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #0e85b7;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.accounts {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+}
+
+.account-dp {
+    width: 200px;
+    height: 200px;
+}
+
+.the-dp {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 0;
+}
+
+.account-details {
+    display: inline-block;
+    font-family: Cantarell, serif;
+}
+
+.account-name {
+    display: block;
+    font-family: Cantarell, serif;
+    font-weight: bold;
+    width: 120px;
+    vertical-align: top;
+}
+
+.name {
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+.dp-mutual {
+    display: inline-block;
+    height: 50px;
+    align-items: center;
+}
+
+.mutuals {
+    display: inline-block;
+    align-items: center;
+}
+
+.mutuals-dp {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    display: inline-block;
+    horiz-align: left;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.counts {
+    display: inline-block;
+    color: rgb(96, 96, 96);
+    align-items: center;
+}
+
+.mutual-counts {
+    margin-top: 0;
+    margin-bottom: 10px;
+    vertical-align: top;
+    align-items: center;
+}
+
+
+
+
+.whole-body-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 180px;
+}
+
+.mdp-mc-grid {
+    display: grid;
+}
+
+.profile-pics {
+    height: 100%;
+    width: 100%;
+}
+
+.the-pics {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.lower {
+    width: 100%;
+}
+
+.profile-name {
+    font-family: Cantarell, serif;
+    font-weight: bold;
+    width: 80px;
+}
+
+.the-name {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    vertical-align: top;
+    width: 100%;
+}
+
+.mdp-mc {
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.the-pics2 {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+    background-color: #424040;
+}
+
+.mutual-count {
+    font-family: Cantarell, serif;
+    display: inline-block;
+    width: 120px;
+    position: relative; bottom: 15px;
+}
+
+.count {
+    width: 100%;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(96, 96, 96);
+}
+
+.button {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.the-button {
+    background-color: #0c8ffc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-family: Cantarell, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative; top: 10px;
+}

@@ -1,0 +1,114 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    width: 100px;
+    margin-right: 20px;
+    background-color: white;
+    z-index: 120;
+    padding-top: 13px;
+}
+
+.sidebar-icons {
+    height: 101px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sidebar-icons:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.sidebar-icons img {
+    height: 30px;
+    margin-bottom: 4px;
+}
+
+.sidebar-icons div {
+    font-family: Cantarell, serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/*
+@media (max-width: 1200px) {
+    .sidebar {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 55px;
+        background-color: white;
+        width: 72px;
+        z-index: 200;
+        padding-top: 5px;
+    }
+
+    .sidebar-icons{
+        height: 74px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .sidebar-icons:hover {
+        background-color: rgb(235, 235, 235);
+    }
+
+    .sidebar-icons img {
+        height: 24px;
+        margin-bottom: 4px;
+    }
+
+    .sidebar-icons div {
+        font-family: Cantarell, serif;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1200.1px) {
+    .sidebar {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 55px;
+        background-color: white;
+        width: 140px;
+        z-index: 200;
+        padding-top: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .sidebar-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        padding: 8px 24px;
+    }
+
+    .sidebar-icons:hover {
+        background-color: rgb(235, 235, 235);
+    }
+
+    .sidebar-icons img {
+        height: 24px;
+        margin-right: 24px;
+        margin: 0;
+    }
+
+    .sidebar-icons div {
+        font-family: Roboto, Arial;
+        font-size: 14px;
+    }
+}
+
+ */

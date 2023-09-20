@@ -1,0 +1,87 @@
+.lower-grid {
+    display: grid;
+}
+
+.mdp-mc-grid {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+}
+
+.mutual-dp-grid {
+    display: grid;
+    grid-template-columns: 50px;
+}
+
+.profile-pics {
+    height: 200px;
+    width: 200px;
+}
+
+.the-pics {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.lower {
+    width: 100%;
+}
+
+.profile-name {
+    font-family: Cantarell;
+    font-weight: bold;
+}
+
+.the-name {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    vertical-align: top;
+    width: 100%;
+}
+
+.mdp-mc {
+    align-items: center;
+    align-content: center;
+}
+
+.the-pics2 {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+    background-color: #424040;
+}
+
+.mutual-count {
+    font-family: Cantarell;
+}
+
+.count {
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative; bottom: 15px; left: 5px;
+    color: rgb(96, 96, 96);
+}
+
+.button {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.the-button {
+    background-color: #0c8ffc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-family: Cantarell;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative; top: 10px;
+}

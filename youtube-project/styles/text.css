@@ -1,0 +1,172 @@
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-left: 18px;
+}
+
+@media (max-width: 747px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 748px) and (max-width: 1062px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1063px) and (max-width: 1300px){
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1301px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.first-body-grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.pics1 {
+    width: 100%;
+
+}
+
+.head {
+    width: 240px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Cantarell, serif;
+    font-weight: bold;
+    line-height:25px;
+}
+
+@media (min-width: 1000px) {
+    .head {
+        font-size: 16px;
+        line-height: 14px;
+    }
+    .author, .counts {
+        font-size: 25px;
+    }
+}
+
+.first-body {
+    display: inline-block;
+}
+
+.channel-dp {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 6px;
+    position: relative;
+}
+
+.profile-pics-container {
+
+}
+
+.dp {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius:100px;
+}
+
+.channel-dp .hover-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 55px;
+    background-color: white;
+    box-shadow: 2px -2px 8px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    width: 250px;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    z-index: 105;
+}
+
+.channel-dp:hover .hover-container {
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+.hover-dp-container {
+    width: 60px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hover-dp {
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.hover-title {
+    font-family: "Cantarell Extra Bold", serif;
+    font-size: 16px;
+    margin: 0;
+    height: 24px;
+}
+
+.hover-subscriber {
+    font-family: Cantarell, serif;
+    font-size: 16px;
+    color: #838383;
+    margin: 0;
+    height: 24px;
+}
+
+.channel-details {
+    display: inline-block;
+    width: 200px;
+    margin-top: 0;
+}
+
+.first-pics {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.author {
+    color: rgb(96, 96, 96);
+    font-family: Cantarell, serif;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.counts {
+    color: rgb(96, 96, 96);
+    font-family: Cantarell, serif;
+    font-size: 15px;
+}
+
+.video-time {
+    background-color: black;
+    color: white;
+    font-family: Cantarell, serif;
+    font-weight: bold;
+    position: absolute;
+    right: 5px;
+    bottom: 8px;
+    padding: 6px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+}
