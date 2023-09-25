@@ -1,0 +1,30 @@
+body {
+    font-family: Inter, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.whole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+}
+
+@media screen and (max-width: 375px) {
+    .whole {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .whole {
+        width: 90%;
+    }
+
+}

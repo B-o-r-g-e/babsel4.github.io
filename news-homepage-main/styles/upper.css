@@ -1,0 +1,309 @@
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.left-upper {
+    display: flex;
+    max-width: 2000px;
+    max-height: 300px;
+}
+
+.left-upper img {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.second-pics {
+    display: none;
+}
+
+.left-lower {
+    display: flex;
+    align-items: start;
+    gap: 40px;
+}
+
+.ll-left {
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0;
+    width: 230px;
+}
+
+.ll-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ll-right p {
+    color: hsl(0, 0%, 48%);
+    margin: 0;
+    font-size: 15px;
+    width: 350px;
+}
+
+.ll-right button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding: 10px 63px;
+    white-space: nowrap;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    font-family: Inter, serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: none;
+}
+
+.ll-right button:hover {
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    padding: 15px;
+
+}
+
+.rbb {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 6px;
+}
+
+.new {
+    color: hsl(35, 77%, 62%);
+    font-weight: 800;
+    font-size: 28px;
+    margin: 0;
+}
+
+.hydro {
+    display: flex;
+    flex-direction: column;
+}
+
+.hydro-first {
+    font-weight: 800;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.hydro-first:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.hydro-second{
+    font-size: 12px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: #6c6c6c;
+}
+
+
+@media screen and (max-width: 375px) {
+    .second {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .left {
+        margin-bottom: 50px;
+    }
+
+    .left-upper {
+        display: none;
+    }
+
+    .second-pics {
+        display: block;
+        width: 100%;
+    }
+
+    .second-pics img {
+        width: 100%;
+    }
+
+    .left-lower {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ll-left {
+        font-size: 40px;
+        width: 90%;
+        line-height: 39px;
+    }
+    
+    .ll-right {
+        gap: 20px;
+    }
+
+    .ll-right p {
+        font-size: 15px;
+        width: 100%;
+        line-height: 25px;
+    }
+    
+    .ll-right button {
+        font-size: 12px;
+        height: 40px;
+        width: 180px;
+        letter-spacing: 5px;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right-box {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .rbb {
+        width: 100%;
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    .new {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .hydro {
+        
+    }
+    
+    .hydro-first {
+        font-size: 20px;
+    }
+    
+    .hydro-second {
+        font-size: 15px;
+    }
+}
+
+
+
+@media screen and (max-width: 810px) {
+    .second {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .left {
+        margin-bottom: 50px;
+    }
+
+    .left-upper {
+        display: none;
+    }
+
+    .second-pics {
+        display: block;
+        width: 100%;
+    }
+
+    .second-pics img {
+        width: 100%;
+    }
+
+    .left-lower {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ll-left {
+        font-size: 40px;
+        width: 90%;
+        line-height: 39px;
+    }
+
+    .ll-right {
+        gap: 20px;
+    }
+
+    .ll-right p {
+        font-size: 15px;
+        width: 100%;
+        line-height: 25px;
+    }
+
+    .ll-right button {
+        font-size: 12px;
+        height: 40px;
+        width: 180px;
+        letter-spacing: 5px;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right-box {
+        width: 100%;
+        height: 500px;
+    }
+
+    .rbb {
+        width: 100%;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .new {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .hydro {
+
+    }
+
+    .hydro-first {
+        font-size: 20px;
+    }
+
+    .hydro-second {
+        font-size: 15px;
+    }
+}
